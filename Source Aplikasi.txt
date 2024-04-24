@@ -1,5 +1,5 @@
-Visual Studio Code    ┊ https://code.visualstudio.com/download
-Node JS               ┊ https://nodejs.org/en/download/current
-dicord.js             ┊ npm i discord.js@13
+* Visual Studio Code    ┊ https://code.visualstudio.com/download
+* Node JS               ┊ https://nodejs.org/en/download/current
+* dicord.js             ┊ npm i discord.js@13
 
-Catatan :  Install discord.js menggunakan terminal pada Visual Studio Code. Untuk membuka             terminal, ketik shortcut Ctrl+Shift+` atau dengan memilih menu Terminal                    dibagian kiri atas [(Jika tidak tampil menu terminal, pilih ikon titik tiga                (...) dan akan muncul opsi terminal bersama dengan opsi yang lain, lalu klik               new terminal)], lalu pilih New Terminal.
+Catatan :  Install discord.js menggunakan terminal pada Visual Studio Code. Untuk membuka terminal, ketik shortcut **Ctrl+Shift+`** atau dengan memilih menu Terminal dibagian kiri atas **(Jika tidak tampil menu terminal, pilih ikon titik tiga(...) dan akan muncul opsi terminal bersama dengan opsi yang lain, lalu klik terminal, lalu pilih New Terminal
