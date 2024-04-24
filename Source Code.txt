@@ -1,0 +1,27 @@
+const Discord = require("discord.js");
+ 
+const client = new Discord.Client({
+    intents: ["GUILDS", "GUILD_MESSAGES", "GUILD_MEMBERS", "MESSAGE_CONTENT"],
+    partials: ["CHANNEL", "MESSAGE"]
+});
+ 
+const token = (" ") #  Paste token discord kamu!
+ 
+client.on('ready', async () => {
+    console.log(`Client has been initiated! ${client.user.username}`)
+});
+ 
+client.on('messageCreate', async (message) => {
+    if (message.content.toLowerCase() === "halo") {
+        message.reply("Halo juga!");
+    }
+});
+ 
+client.login(token);
+
+#  Code tersebut adalah sebuah bot Discord yang menggunakan library discord.js untuk berinteraksi dengan Discord API. Bot ini memiliki beberapa fitur sebagai berikut:
+
+#  Membuat instance dari Discord.Client dengan menentukan intent dan partials yang diperlukan.
+#  Menggunakan token untuk mengotentikasi bot dengan Discord API.
+#  Menggunakan event 'ready' untuk menampilkan pesan ke konsol saat bot berhasil terhubung.
+#  Menggunakan event 'messageCreate' untuk menanggapi pesan yang diterima oleh bot. Jika pesan yang diterima adalah "halo" (tidak case-sensitive), bot akan membalas dengan "Halo juga!"
